@@ -1,0 +1,132 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-color: red;
+	color: white;
+}
+
+.intro p{
+	color: white;
+}
+
+.intro{
+	position: absolute;
+}
+
+.sliding{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 550px;
+	height: 570px;
+	/*border: 1px solid red;*/
+	z-index: 1;
+}
+
+.slidy{
+	height: 100%;
+	width: 100%;
+	float: right;
+	background-color: black;
+	overflow: hidden;
+}
+
+.slidy figure{
+	width: 500%;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	animation: 20s slide infinite;
+}
+
+@keyframes slide{
+	0%{
+		left: 0%;
+	}
+	
+	10%{
+		left: 0%;
+	}
+	
+	12%{
+		left: -100%;
+	}
+	
+	22%{
+		left: -100%;
+	}
+	
+	24%{
+		left: -200%;
+	}
+	
+	34%{
+		left: -200%;
+	}
+	
+	36%{
+		left: -300%;
+	}
+	
+	46%{
+		left: -300%;
+	}
+	
+	48%{
+		left: -400%;
+	}
+	
+	58%{
+		left: -400%;
+	}
+	
+	60%{
+		left: -300%;
+	}
+	
+	70%{
+		left: -300%;
+	}
+	
+	72%{
+		left: -200%;
+	}
+	
+	82%{
+		left: -200%;
+	}
+	
+	84%{
+		left: -100%;
+	}
+	
+	94%{
+		left: -100%;
+	}
+	
+	96%{
+		left: 0%;
+	}
+	
+	100%{
+		left: 0%;
+	}
+}
+
+.slidy div{
+	float: left;
+	width: 20%;
+}
+
+.slidy img{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.intro{
+	margin-left: 500px;
+}
+
+

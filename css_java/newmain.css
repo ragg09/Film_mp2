@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background: url("../images/background.png") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+table tr{
+	text-align: center;
+}
+
+.table1{
+	color: white;
+	margin-top: 100px;
+
+	/*border: 1px solid white;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: auto;
+	width: 30%;
+	background-color: white;*/
+}
+
+.table2, .table3, .table4, .table5, .table6, .table7, .table8{
+	color: white;
+
+	/*border: 1px solid white;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: auto;
+	width: 4.2%;
+	background-color: black;*/
+}
+
+.successsmg{
+	margin-top: 300px;
+}
+
+option, select{
+	color:black;
+}
+

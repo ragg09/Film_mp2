@@ -1,0 +1,17 @@
+.dtp{
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	font-family: serif;
+	border: 2px dotted white;
+}
+
+.dtp #btn{
+	margin-top: 5px;
+	background-color: orange;
+}
+
+.input input{
+	background-color: pink;
+	padding: 2px 2px 2px 2px;
+	margin-bottom: 10px;
+}
